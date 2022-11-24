@@ -42,6 +42,12 @@ html::-webkit-scrollbar-thumb {
 body {
     background: white;
     overflow-x: hidden;
+    padding-left: 35rem;
+}
+
+section {
+    min-height: 100vh;
+    padding: 1rem;
 }
 
 header {
@@ -108,10 +114,49 @@ header .navbar ul li a:hover {
     display: none;
 }
 
+.home {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0 15rem;
+}
 
+.home h1 {
+    font-size: 4.5rem;
+}
+
+.home h3 {
+    font-size: 2.5rem;
+    color: gray;
+}
+
+.home p {
+    font-size: 1.5rem;
+    color: gray;
+    padding: 1rem 0;
+}
+
+.btn {
+    padding: 1rem 3rem;
+    background: var(--purple);
+    color: white;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+
+.btn:hover {
+    background: darkmagenta;
+}
+
+/* media queries */
 @media (max-width: 1200px) {
     html {
         font-size: 55%;
+    }
+    .home {
+        padding: 1rem 4rem;
     }
 }
 
@@ -124,6 +169,9 @@ header .navbar ul li a:hover {
     }
     header.toggle{
         left: 0%;
+    }
+    body {
+        padding: 0;
     }
 }
 
