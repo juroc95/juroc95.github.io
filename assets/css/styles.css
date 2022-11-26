@@ -372,9 +372,6 @@ header .navbar ul li a:hover {
     display: none;
 }
 
-
-
-
 /* media queries */
 @media (max-width: 1200px) {
     html {
@@ -406,7 +403,7 @@ header .navbar ul li a:hover {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 414px) {
     header {
         width: 100vw;
     }
@@ -414,7 +411,7 @@ header .navbar ul li a:hover {
         margin: 0 3rem;
     }
     .about .row .info {
-        padding-left: 2rem;
+        padding-left: 3rem;
     }
     .about .row .counter .box {
         width: 100%;
