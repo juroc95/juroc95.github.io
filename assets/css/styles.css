@@ -158,10 +158,10 @@ header .navbar ul li a:hover {
     padding-top: 1rem;
 }
 
-.home .social-links img {
-    width: 40px;
-    height: 40px;
+.home .social-links i {
+    font-size: 3rem;
     padding-left: 1rem;
+    color: var(--purple);
 }
 
 .btn {
