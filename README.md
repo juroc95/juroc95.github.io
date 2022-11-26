@@ -27,8 +27,8 @@ There are 5 sections total and can move using navbar
 - Or open this link https://juroc95.github.io
 
 ## Screenshots
-![0001](https://user-images.githubusercontent.com/94903612/204079788-488d24e8-51cf-4d6c-9c38-0c3ba96631b8.jpg)
-![0002](https://user-images.githubusercontent.com/94903612/204079790-15070b4e-08aa-4aa5-a8ba-bbfc8ee69d2a.jpg)
-![0003](https://user-images.githubusercontent.com/94903612/204079792-5fec292e-3e30-4e20-b5dd-d8ef60dabcf5.jpg)
-![0004](https://user-images.githubusercontent.com/94903612/204079795-5bbb2c82-9f85-425d-aa18-81287a89cba0.jpg)
-![0005](https://user-images.githubusercontent.com/94903612/204079796-881d4300-5a4e-4595-9c58-25ef2c1d1204.jpg)
+![Personal Portfolio Website_page-0001](https://user-images.githubusercontent.com/94903612/204102200-b0a48a93-972f-432a-8662-e150dd95f467.jpg)
+![Personal Portfolio Website_page-0002](https://user-images.githubusercontent.com/94903612/204102201-370a7463-bfbf-4b41-a987-2eb293252625.jpg)
+![Personal Portfolio Website_page-0003](https://user-images.githubusercontent.com/94903612/204102202-4dbc2fbf-0a90-4861-94ed-b6f4f505dfac.jpg)
+![Personal Portfolio Website_page-0004](https://user-images.githubusercontent.com/94903612/204102203-e5bf7221-1e8b-442e-80ee-e0a085e3ab7f.jpg)
+![Personal Portfolio Website_page-0005](https://user-images.githubusercontent.com/94903612/204102204-0e05320d-12e2-41a0-87aa-026662c87f16.jpg)
