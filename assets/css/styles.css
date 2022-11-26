@@ -50,6 +50,14 @@ section {
     padding: 1rem;
 }
 
+.heading {
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4.5rem;
+    padding: 1rem;
+    border-bottom: .2rem solid var(--purple);
+}
+
 header {
     position: fixed;
     top: 0;
@@ -150,6 +158,57 @@ header .navbar ul li a:hover {
     background: darkmagenta;
 }
 
+.about .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+}
+
+.about .row .info {
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 6rem;
+}
+
+.about .row .info h3 {
+    font-size: 2rem;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.about .row .info h3 span {
+    padding: 0.5rem;
+    font-weight: bold;
+}
+
+.about .row .counter {
+    flex: 1 1 48rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about .row .counter .box {
+    width: 20rem;
+    background: lightgray;
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: .5rem;
+}
+
+.about .row .counter .box span {
+    font-size: 4rem;
+    font-weight: bold;
+    color: var(--purple);
+}
+
+.about .row .counter .box h3 {
+    font-size: 2rem;
+}
+
 /* media queries */
 @media (max-width: 1200px) {
     html {
@@ -184,5 +243,11 @@ header .navbar ul li a:hover {
 @media (max-width: 400px) {
     header {
         width: 100vw;
+    }
+    .heading {
+        margin: 0 3rem;
+    }
+    .about .row .counter .box {
+        width: 100%;
     }
 }
