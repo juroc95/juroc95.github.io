@@ -110,14 +110,14 @@ header .navbar ul li a:hover {
     color: blue;
 }
 
-#menu img {
+#menu {
     position: fixed;
     top: 2rem;
     right: 2rem;
-    width: 60px;
-    height: 60px;
+    font-size: 3rem;
     padding: 1rem 1.5rem;
     z-index: 1000;
+    color: var(--purple);
     cursor: pointer;
     display: none;
 }
@@ -379,10 +379,10 @@ header .navbar ul li a:hover {
     position: fixed;
     bottom: 2rem;
     right: 2rem;
-    width: 60px;
-    height: 60px;
+    font-size: 3rem;
     padding: 1rem 1.5rem;
     z-index: 1000;
+    color: var(--purple);
     cursor: pointer;
     display: none;
 }
@@ -401,7 +401,7 @@ header .navbar ul li a:hover {
     header {
         left: -120%;
     }
-    #menu img {
+    #menu {
         display: block;
     }
     header.toggle{
