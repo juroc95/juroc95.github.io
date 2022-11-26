@@ -209,6 +209,64 @@ header .navbar ul li a:hover {
     font-size: 2rem;
 }
 
+.previouswork .box-container {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+}
+
+.previouswork .box-container .box {
+    width: 27rem;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid var(--purple);
+    position: relative;
+}
+
+.previouswork .box-container .box i {
+    position: absolute;
+    top: -1.5rem;
+    left: -2.5rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    background: var(--purple);
+}
+
+.previouswork .box-container .box span {
+    font-size: 1.3rem;
+    border-radius: 5rem;
+    padding: 1rem;
+}
+
+.previouswork .box-container .box h2 {
+    font-size: 2rem;
+    color: var(--purple);
+    padding-top: 1.5rem;
+}
+
+.previouswork .box-container .box h3 {
+    font-size: 1.6rem;
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+}
+
+.previouswork .box-container .box p {
+    font-size: 1.4rem;
+    padding: .5rem 0;
+}
+
+
+
+
+
 /* media queries */
 @media (max-width: 1200px) {
     html {
@@ -247,7 +305,13 @@ header .navbar ul li a:hover {
     .heading {
         margin: 0 3rem;
     }
+    .about .row .info {
+        padding-left: 3rem;
+    }
     .about .row .counter .box {
+        width: 100%;
+    }
+    .previouswork .box-container .box {
         width: 100%;
     }
 }
