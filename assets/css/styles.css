@@ -358,6 +358,18 @@ header .navbar ul li a:hover {
     color: var(--purple);
 }
 
+.top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 60px;
+    height: 60px;
+    padding: 1rem 1.5rem;
+    z-index: 1000;
+    cursor: pointer;
+    display: none;
+}
+
 
 
 
