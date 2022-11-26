@@ -145,17 +145,23 @@ header .navbar ul li a:hover {
     color: gray;
 }
 
-.home .home-buttons {
+.home .social-links {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     padding-top: 1rem;
 }
 
-.home .home-buttons img{
+.home .about-button {
+    flex: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.home .social-links img {
     width: 40px;
     height: 40px;
-    padding-right: 1rem; 
+    padding-left: 1rem;
 }
 
 .btn {
