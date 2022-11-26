@@ -263,9 +263,43 @@ header .navbar ul li a:hover {
     padding: .5rem 0;
 }
 
+.projects .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
 
+.projects .box-container .box {
+    width: 26rem;
+    height: 22rem;
+    margin: 2rem;
 
+}
 
+.projects .box-container .box h3 {
+    font-size: 1.5rem;
+    padding-top: .5rem;
+}
+
+.projects .box-container .box .img-container {
+    width: 26rem;
+    height: 20rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.projects .box-container .box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.projects .box-container .box .img-container:hover img {
+    transform: scale(1.2);
+}
 
 /* media queries */
 @media (max-width: 1200px) {
@@ -312,6 +346,9 @@ header .navbar ul li a:hover {
         width: 100%;
     }
     .previouswork .box-container .box {
+        width: 100%;
+    }
+    .projects .box-container {
         width: 100%;
     }
 }
