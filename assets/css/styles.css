@@ -145,6 +145,19 @@ header .navbar ul li a:hover {
     color: gray;
 }
 
+.home .home-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 1rem;
+}
+
+.home .home-buttons img{
+    width: 40px;
+    height: 40px;
+    padding-right: 1rem; 
+}
+
 .btn {
     padding: 1rem 3rem;
     background: var(--purple);
@@ -169,10 +182,7 @@ header .navbar ul li a:hover {
 
 .about .row .info {
     flex: 1 1 48rem;
-    /* padding: 2rem 1rem;
-    padding-left: 6rem; */
-    padding: 2rem;
-    padding-left: 6rem;
+    padding: 3rem;
 }
 
 .about .row .info h3 {
@@ -194,7 +204,7 @@ header .navbar ul li a:hover {
 }
 
 .about .row .counter .box {
-    width: 20rem;
+    width: 100%;
     background: lightgray;
     text-align: center;
     padding: 2rem;
@@ -221,8 +231,8 @@ header .navbar ul li a:hover {
 }
 
 .previouswork .box-container .box {
-    width: 27rem;
-    margin: 4rem 1rem;
+    width: 100%;
+    margin: 3rem 1rem;
     padding-left: 4rem;
     border-left: .2rem solid var(--purple);
     position: relative;
@@ -405,15 +415,6 @@ header .navbar ul li a:hover {
     }
     .heading {
         margin: 0 3rem;
-    }
-    .about .row .info {
-        padding-left: 3rem;
-    }
-    .about .row .counter .box {
-        width: 100%;
-    }
-    .previouswork .box-container .box {
-        width: 100%;
     }
     .projects .box-container {
         width: 100%;
