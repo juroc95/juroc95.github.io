@@ -24,7 +24,7 @@ There are 5 sections total and can move using navbar
 
 ## How to run the code
 - Clone this repository and open index.html with Live Server
-- Or open this link juroc95.github.io
+- Or open this link https://juroc95.github.io
 
 ## Screenshots
 ![0001](https://user-images.githubusercontent.com/94903612/204079788-488d24e8-51cf-4d6c-9c38-0c3ba96631b8.jpg)
