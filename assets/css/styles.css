@@ -145,17 +145,17 @@ header .navbar ul li a:hover {
     color: gray;
 }
 
+.home .about-button {
+    flex: 0;
+    display: flex;
+    flex-direction: row;
+}
+
 .home .social-links {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     padding-top: 1rem;
-}
-
-.home .about-button {
-    flex: 0;
-    display: flex;
-    flex-direction: row;
 }
 
 .home .social-links img {
