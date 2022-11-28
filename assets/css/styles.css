@@ -154,8 +154,8 @@ header .navbar ul li a:hover {
 .home .social-links {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    padding-top: 1rem;
+    justify-content: flex-start;
+    padding-top: 5rem;
 }
 
 .home .social-links i {
@@ -171,7 +171,7 @@ header .navbar ul li a:hover {
     cursor: pointer;
     margin-top: 1rem;
     font-size: 2rem;
-    border-radius: 1rem;
+    border-radius: .5rem;
 }
 
 .btn:hover {
@@ -291,14 +291,14 @@ header .navbar ul li a:hover {
 
 .projects .box-container .box {
     width: 26rem;
-    height: 22rem;
+    height: 24rem;
     margin: 2rem;
 
 }
 
 .projects .box-container .box h3 {
     font-size: 1.5rem;
-    padding-top: .5rem;
+    padding-top: 1.5rem;
 }
 
 .projects .box-container .box .img-container {
