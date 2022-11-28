@@ -17,7 +17,7 @@ There are 5 sections total and can move using navbar
 - Navbar button for mobile devices (hide & show)
 - Scroll top button
 
-## Sources used
+## References
 - https://iconscout.com/unicons/
 - https://fonts.google.com/specimen/Poppins?query=popp
 - https://cdnjs.com/libraries/jquery
@@ -27,8 +27,8 @@ There are 5 sections total and can move using navbar
 - Or open this link https://juroc95.github.io
 
 ## Screenshots
-![Personal Portfolio Website_page-0001](https://user-images.githubusercontent.com/94903612/204102200-b0a48a93-972f-432a-8662-e150dd95f467.jpg)
-![Personal Portfolio Website_page-0002](https://user-images.githubusercontent.com/94903612/204102201-370a7463-bfbf-4b41-a987-2eb293252625.jpg)
-![Personal Portfolio Website_page-0003](https://user-images.githubusercontent.com/94903612/204102202-4dbc2fbf-0a90-4861-94ed-b6f4f505dfac.jpg)
-![Personal Portfolio Website_page-0004](https://user-images.githubusercontent.com/94903612/204102203-e5bf7221-1e8b-442e-80ee-e0a085e3ab7f.jpg)
-![Personal Portfolio Website_page-0005](https://user-images.githubusercontent.com/94903612/204102204-0e05320d-12e2-41a0-87aa-026662c87f16.jpg)
+![Personal Portfolio Website_page-0001](https://user-images.githubusercontent.com/94903612/204218390-c4c1aebc-5bab-4626-b734-04aa183c8c44.jpg)
+![Personal Portfolio Website_page-0002](https://user-images.githubusercontent.com/94903612/204218401-e602d17f-c3e3-44bb-9152-adab43e5aaf1.jpg)
+![Personal Portfolio Website_page-0003](https://user-images.githubusercontent.com/94903612/204218407-efd17626-f197-4f2c-90db-0db5400bb0d1.jpg)
+![Personal Portfolio Website_page-0004](https://user-images.githubusercontent.com/94903612/204218412-c0a1682d-5845-42a8-b229-d70b8ace2242.jpg)
+![Personal Portfolio Website_page-0005](https://user-images.githubusercontent.com/94903612/204218415-173ca5a0-b8b1-4349-9527-875753d7a274.jpg)
