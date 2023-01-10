@@ -125,43 +125,44 @@ header .navbar ul li a:hover {
 .home {
     display: flex;
     justify-content: center;
-    flex-flow: column;
+    flex-flow: row;
     padding: 0 15rem;
 }
 
-.home h1 {
+.home .social-links {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home .social-links i {
+    font-size: 3rem;
+    padding-right: 3rem;
+    color: var(--purple);
+}
+
+.home .content {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home .content h1 {
     font-size: 4.5rem;
 }
 
-.home h3 {
+.home .content h3 {
     font-size: 2.5rem;
     font-weight: normal;
     color: gray;
 }
 
-.home p {
+.home .content p {
     font-size: 1.5rem;
     padding: 1rem 0;
     color: gray;
-}
-
-.home .about-button {
-    flex: 0;
-    display: flex;
-    flex-direction: row;
-}
-
-.home .social-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    padding-top: 5rem;
-}
-
-.home .social-links i {
-    font-size: 3rem;
-    padding-left: 1rem;
-    color: var(--purple);
 }
 
 .btn {
@@ -299,6 +300,7 @@ header .navbar ul li a:hover {
 .projects .box-container .box h3 {
     font-size: 1.5rem;
     padding-top: 1.5rem;
+    text-align: center;
 }
 
 .projects .box-container .box .img-container {
@@ -327,16 +329,14 @@ header .navbar ul li a:hover {
 }
 
 .contact .row .content {
-    flex: 1 1 30rem;
+    flex: 1 1 48rem;
     padding: 4rem;
     padding-bottom: 0;
 }
 
 .contact .row form {
-    flex: 1 1 45rem;
-    padding: 2rem;
-    margin: 2rem;
-    margin-bottom: 4rem;
+    flex: 1 1 48rem; 
+    padding: 4rem;
 }
 
 .contact .row form .box {
@@ -389,9 +389,6 @@ header .navbar ul li a:hover {
 
 /* media queries */
 @media (max-width: 1201px) {
-    html {
-        font-size: 55%;
-    }
     .home {
         padding: 1rem 4rem;
     }
