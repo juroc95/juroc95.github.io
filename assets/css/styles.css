@@ -130,7 +130,7 @@ header .navbar ul li a:hover {
 }
 
 .home .social-links {
-    flex: 1 1 auto;
+    flex: 0;
     display: flex;
     justify-content: center;
     flex-direction: column;
