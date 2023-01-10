@@ -419,6 +419,9 @@ header .navbar ul li a:hover {
     .heading {
         margin: 0 3rem;
     }
+    .home .social-links {
+        padding-right: 2rem;
+    }
     .projects .box-container {
         width: 100%;
     }
