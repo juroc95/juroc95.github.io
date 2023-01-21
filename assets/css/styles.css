@@ -220,13 +220,16 @@ header .navbar ul li a:hover {
 }
 
 .about .row .counter .box span {
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: bold;
     color: var(--purple);
+    display: block;
+    padding-bottom: 1rem;
 }
 
-.about .row .counter .box h3 {
+.about .row .counter .box img {
     font-size: 2rem;
+    display: inline-block;
 }
 
 .previouswork .box-container {
