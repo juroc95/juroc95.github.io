@@ -20,7 +20,7 @@ The website is divided into 5 sections, which can be navigated using the navbar:
 
 ## Resources and Attributions
 - Icons: https://iconscout.com/unicons/
-- Badges: https://github.com/Ileriayo/markdown-badges
+- Badges: https://skillicons.dev/
 - Fonts: https://fonts.google.com/specimen/Poppins?query=popp
 - jQuery: https://cdnjs.com/libraries/jquery
 
